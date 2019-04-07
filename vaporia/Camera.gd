@@ -10,12 +10,13 @@
 
 extends Node
 
+
 export var panSpeed = 20.0
 export var scrollSpeed = 150
 var panBorderThickness = 20.0
 
 # Used to indicate the bounds of the map (for restricted cam movement)
-var panLimit = Vector2(40,40)
+var panLimit = Vector2(35,35)
 
 var m_position
 
@@ -63,11 +64,11 @@ func camMove(delta):
 			print(self.get_translation())
 			self.translation.y -= scrollSpeed * delta * m_scrolling
 			if self.translation.y < 25:
-				self.rotation.x += (m_scrolling * 0.2)
+				self.rotation.x += (m_scrolling * 0.08)
 			print("p ", self.rotation.x)
 			m_scrolling = 0
 		
-		self.rotation.x = clamp(self.rotation.x, -14, -13)
+		self.rotation.x = clamp(self.rotation.x, -14, -13.7)
 			
 		self.translation.x = clamp(self.translation.x, -panLimit.x, panLimit.x)
 		self.translation.y = clamp(self.translation.y, minY, maxY)
