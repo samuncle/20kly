@@ -5,8 +5,9 @@ Remake of 20,000 Light Years Into Space using the Godot Game Engine
 07.04.2019 
 We can move around a camera. Basic visual (simple 3D plane).
 
-# road map #
+# Future road map #
 
+0) Minimal experiment (moving camera, selecting buildings)
 1) porting the base of the game to Godot (ability to create pipes and nodes) 
 2) adding natural disasters (storms, alien invasion and quakes) 
 3) using existing art to finalize the prototype 
