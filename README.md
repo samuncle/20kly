@@ -14,20 +14,20 @@ We can move around a camera. Basic visual (simple 3D plane).
 
 # FAQ #
 
-> Can I contribute?
+## Can I contribute?
 Yes, you are welcome especially on the scripting part
 
-> Why redoing it in Godot. Isn't just updating the existing game easier?
+## Why redoing it in Godot. Isn't just updating the existing game easier?
 While the original game was written in python, not using a game engine makes it really hard to expand it and focus on the game. 
 
 Godot is a proven game engine which reduce the overhead of figuring out how to create particles, camera management, scene structure etc. It also opens up to potential future visual improvements.
 
-> Can I play it?
+## Can I play it?
 WARNING. This version is not yet ready for general release. It is 
 not a complete game. Currently if you want to play it's easier to use the original 2006 version.
 http://www.jwhitham.org/20kly/
 
-> What is the license?
+## What is the license?
 It is avaliable under GPL just like the original game.
 
     
