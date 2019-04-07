@@ -20,7 +20,7 @@ Yes, you are welcome especially on the scripting part
 ## Why redoing it in Godot. Isn't just updating the existing game easier?
 While the original game was written in python, not using a game engine makes it really hard to expand it and focus on the game. 
 
-Godot is a proven game engine which reduce the overhead of figuring out how to create particles, camera management, scene structure etc. It also opens up to potential future visual improvements.
+Godot is a proven game engine which reduce the overall overhead. It also opens up to potential future visual improvements.
 
 ## Can I play it?
 WARNING. This version is not yet ready for general release. It is 
